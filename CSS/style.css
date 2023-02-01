@@ -1,0 +1,173 @@
+/*navbar*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    position: relative;
+    
+    width: 100%;
+    background-color: #05cab0;
+    overflow: auto;
+
+}
+
+header img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+
+header nav a {
+    float: right;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+header a:hover {
+    background-color: #a4d3bd;
+}
+
+.active {
+    background-color: #a4d3bd;
+}
+
+
+/* table*/
+table.center {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #05cab0;
+}
+
+.incomplete {
+    background-color: rgb(235, 37, 37);
+}
+
+.complete {
+    background-color: lightgreen;
+}
+
+.inprogress {
+    background-color: rgb(255, 94, 0);
+}
+
+
+/*  About me*/
+
+.image-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+img {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/* form */
+
+form {
+    width: 60%;
+    margin: 100px auto;
+
+}
+
+form h3 {
+    margin: 5%;
+    text-align: center;
+
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #a4d3bd;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #01d8a9;
+}
+
+
+
+
+
+/*footer*/
+footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+    background-color: #01d8a9;
+    justify-content: center;
+    align-items: center;
+    padding: 5;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons a {
+    margin-right: 0.5rem;
+}
+
+.icons i {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}

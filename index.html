@@ -5,58 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <script src="https://kit.fontawesome.com/4f7fe5e387.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- stylesheet -->
     <title>Home</title>
 </head>
 
 <body>
 
     <header>
-        <img src="/Data/Logo.png" alt="Logo">
-        <h1>ToDo List</h1>
+        <img src="/Data/to-do-list.png" alt="Logo">
         <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-            </ul>
+            <a class="active" href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="/about.html"><i class="fa fa-fw fa-user"></i> About</a>
         </nav>
-        <br>
-        <br>
     </header>
 
     <main>
-        <table>
-            <tr>
-                <th>Task</th>
-                <th>Status</th>
-            </tr>
-            <tr>
-                <td>Task 1 </td>
-                <td>Done</td>
-            </tr>
-            <tr>
-                <td>Task 2 </td>
-                <td>In Progress</td>
-            </tr>
-            <tr>
-                <td>Task 3 </td>
-                <td>Not Started</td>
-            </tr>
-        </table>
+        <div style="text-align:center">
+            <h4>ToDo List</h4>
+            <table class="center">
+                <tr>
+                    <th>Task</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Task 1</td>
+                    <td class="incomplete">Incomplete</td>
+                </tr>
+                <tr>
+                    <td>Task 3</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                <tr>
+                    <td>Task 3</td>
+                    <td class="inprogress">inprogress</td>
+                </tr>
+            </table>
+        </div>
+
     </main>
 
-
     <footer>
-        <section>
-            <br>
-            <br>
-            <br>
-            <i>Facebook</i> <br>
-            <i>LinkedIn</i> <br>
-            <i>Github</i>
-        </section>
-        <section>
-            <p> &copy; Created by Rami Ghanem 2023 </p>
-        </section>
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <p> &copy; Created by Rami Ghanem 2023 </p>
+
     </footer>
 
 </body>

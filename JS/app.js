@@ -36,7 +36,7 @@ if (Skip != true) {
 
 
 
-let question = ["Does a to-do list help you keep track of tasks and responsibilities","Is a to-do list a useful tool for time management","Can a to-do list improve your productivity and efficiency"]
+let question = ["Does a to-do list help you keep track of tasks and responsibilities","Is a to-do list a useful tool for time management","Can a to-do list improve your productivity and efficiency"];
 var answerArray = new Array();
 var questionAnswer = "";
 
@@ -59,7 +59,7 @@ function printArray(array) {
     }
 }
 
-for (var i = 1; i <= 3; i++) {
+for (var i = 0; i < 3; i++) {
     questionAnswer = answerQuestion(i);
     answerArray = insertIntoArray(answerArray, questionAnswer);
     questionAnswer = "";

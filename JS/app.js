@@ -36,7 +36,7 @@ if (Skip != true) {
 
 
 
-
+let question = ["Does a to-do list help you keep track of tasks and responsibilities","Is a to-do list a useful tool for time management","Can a to-do list improve your productivity and efficiency"]
 var answerArray = new Array();
 var questionAnswer = "";
 
@@ -46,7 +46,7 @@ function insertIntoArray(answerArray, questionAnswer) {
 }
 
 function answerQuestion(questionNumber) {
-    questionAnswer = prompt("Question number " + questionNumber.toString() + " Please enter either 'Yes' or 'No':");
+    questionAnswer = prompt(question[questionNumber] + " Please enter either 'Yes' or 'No':");
     if (questionAnswer == "") {
         questionAnswer = "invalid";
     }
